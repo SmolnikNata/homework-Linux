@@ -1,0 +1,14 @@
+   0 mrdir /home/user && mkdir /home/user/start && touch /home/user/start/1.txt
+   1 mkdir /home/user && mkdir /home/user/start && touch /home/user/start/1.txt
+   2 tree /home/user/start
+   3 tree /home/user
+   4 eho "Start" > /home/user/start/1.txt
+   5 echo "Start" > /home/user/start/1.txt
+   6 date >> /home/user/start/1.txt
+   7 mkdir /opt/task && touch /opt/task/start.txt && cat /home/user/start/1.txt >> /opt/task/start.txt
+   8 cat /home/user/start/1.txt
+   9 cat /opt/task/start.txt
+  10 ls -a / | tail -n 4 >> /opt/task/start.txt
+  11 cat /opt/task/start.txt
+  
+  
